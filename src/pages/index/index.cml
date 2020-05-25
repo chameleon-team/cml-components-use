@@ -3,7 +3,7 @@
       <scroller height="{{-1}}">
         <view class="scroller-wrap">
           <demo-com title="{{title}}" image-src="{{chameleonSrc}}"></demo-com>
-          <ec-cans></ec-cans>
+          <multi></multi>
         </view>
       </scroller>
   </page>
@@ -35,7 +35,7 @@ export default new Index();
   "base": {
     "usingComponents": {
       "demo-com": "/components/demo-com/demo-com",
-      "ec-cans": "../../components/ori-comp/ec-canvas"
+      "multi": "../../components/multi/multi"
     }
   },
   "wx": {
